@@ -38,7 +38,7 @@ public class Machado : MonoBehaviour
             //Inimigo inimigoColidiu = other.GetComponent<Inimigo>();
             //inimigoColidiu.TomarDano(dano);
 
-            other.GetComponent<Inimigo>().TomarDano(dano);//neste caso o other é usado por q queremos lidar com o objeto q colidimos, 
+            //other.GetComponent<Inimigo>().TomarDano(dano);//neste caso o other é usado por q queremos lidar com o objeto q colidimos, 
                                                           //aqui esta pegando o script inimigo do objeto q colidimos
                                                           // como se trata do outro inimigo tomar dano se usa o get component
         }     //pq o q quer q tome dano seja o inimigo
