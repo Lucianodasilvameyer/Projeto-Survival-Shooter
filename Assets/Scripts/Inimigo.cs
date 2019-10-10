@@ -20,8 +20,6 @@ public class Inimigo : MonoBehaviour
 
 
 
-    [SerializeField]
-    GameObject bullet;
 
     public Game game_ref;
 
