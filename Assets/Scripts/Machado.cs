@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sword : MonoBehaviour
+public class Machado : MonoBehaviour
 {
     public int dano;
     public float timer;

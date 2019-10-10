@@ -107,7 +107,7 @@ public class Inimigo : MonoBehaviour
         print("Tomou dano");
         if (hp <= 0)
         {
-            game_ref.RemoverInimigoDaLista(gameObject);
+            //game_ref.RemoverInimigoDaLista(gameObject);
 
         }
     }
