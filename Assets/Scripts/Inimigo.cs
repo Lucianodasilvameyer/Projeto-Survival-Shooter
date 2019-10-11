@@ -9,6 +9,8 @@ public class Inimigo : MonoBehaviour
 
     GameObject target;
 
+    public int spawnPoint;
+
     private void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
